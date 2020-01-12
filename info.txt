@@ -1,0 +1,5 @@
+1. Training data is augmented for train_dir_300k and train_dir_100k.
+   But, train_dir_300k has less error than other. 
+
+2. For Sensor car deployment we created frozen inference graph using train_dir_300k in
+   different resolutions. Keep those in frozen_graphs folder  
